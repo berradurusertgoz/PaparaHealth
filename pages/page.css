@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.nav-menu{
+    background-color: transparent;
+    height: 4rem;
+    float: left;
+    align-items: left;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.nav-menu ul{
+    float: left;
+    list-style: none;
+    padding-left: 2rem;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    margin-top: .8rem;
+    margin-left: .5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: left;
+    transition: .5s ease-in;
+    letter-spacing: .5;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: #000000;
+}
+.nav-link.logo{
+    letter-spacing: 1;
+    font-size: 19px;
+    font-weight: 450;
+    
+}
+
+.social-media{
+    justify-content: space-between;
+    float: right;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    
+}
+
+.fa{
+    color: #2b2a2a;
+    transition: .5s ease-in;
+}
+
+.row{
+    display: flex;
+    padding-top: 2rem;
+    
+}
+
+.column{
+    flex: 50%;
+}
+
+.column h2{
+    padding-right: 1rem;
+    padding-top: 5rem;
+    font-size: 4.139vw;
+    font-weight: 400;
+    line-height: 1.04054;
+    margin-bottom: .92857rem;
+}
+
+.column h4{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-size: 1.14286rem;
+    line-height: 1;
+    margin-bottom: 1.78rem;
+}
+
+.column button{
+    width: 8.85rem;
+    height: 2.215rem;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 1rem;
+}
+
+.middle h2{
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.middle h5{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icons{
+    display:flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1.14rem;
+    line-height: 1.8;
+    
+}
+
+.icons p{
+    margin-left: 2rem;
+}
+
+.icons .fa{
+    margin-left: 5rem;
+}
+
+
+.sig-quote{
+    margin-top: 5rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.sig-quote-text{
+    
+    font-size: 2.584rem;
+    line-height: 1.2;
+}
+
+.sig-quote-logo{
+    font-size: 1.9rem;
+}
+
+.work-page{
+    margin-top: 6rem;
+}
+
+.how-it-works_heading{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.flex-container h3{
+    font-size: 1rem;
+    line-height: 1.42;
+    font-weight: 500;
+    letter-spacing: .0714rem;
+    margin-bottom: .571rem;
+    text-transform: uppercase;
+}
+
+.flex-container p{
+    font-size: .941rem;
+    line-height: 1.5;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8rem;
+    margin-top: 1rem;
+    
+}
+.how-one,.how-two,.how-three{
+    margin-top: 1rem;
+}
+
+.how-one, .how-two, .how-three{
+    border-bottom: .0543rem solid #dfe9e4;
+    padding-bottom: 1rem;
+}
+.flex-container a{
+    font-size: 1rem;
+    line-height: 1.4287;
+    letter-spacing: .0714rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: underline;
+}
+
+.flex-container a:hover{
+    color: black;
+}
+
+
+.next-week-menu{
+    margin-top: 8rem;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/menu-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+}
+
+.menu-content {
+    justify-content: center;
+    z-index: 1000;
+    padding: 5rem 5rem;
+}
+
+.menu-content h2{
+    font-size: 2.57rem;
+    line-height: 1.166;
+    margin-bottom: 1.075rem;
+    color: #fff;
+    text-align: center;
+    z-index: 10000;
+}
+
+.menu-content p{
+    font-size: 1.158rem;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-form{
+    margin: 0 auto;
+    max-width: 22.14286rem;
+    width: 100%;
+}
+
+.menu-input{
+    position: relative;
+    color: #9299a9;
+}
+
+.o-input{
+    font-size: 1.1427rem;
+    line-height: 1.5;
+    margin-right: -5px;
+}
+
+.menu-button{
+    flex-shrink: 0;
+    width: 8.85rem;
+    padding: 4px;
+    position: relative;
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border: black;
+}
+.program-section{
+    margin-top: 10rem;
+}
+.program-form{
+    padding-left: 8rem;
+}
+
+
+
+.footer-share{
+    margin: auto;
+    vertical-align: center;
+    max-width: 51.71429rem;
+    padding: 3.92857rem 0 4.78571rem;
+
+}
+
+.footer-header{
+    font-size: 2.57143rem;
+    line-height: 1.16667;
+    letter-spacing: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.o-button{
+    margin-top: 1.72857rem;
+    padding: 0 15.42875rem;
+    font-size: 1.28571rem;
+    line-height: 2.5;
+    letter-spacing: .15143rem;
+    appearance: none;
+    background-color: #000;
+    border:none;
+    color: #f8faf9;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 3.21429rem;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: center;
+    text-transform: uppercase;
+    width:auto;
+}
+
+.o-button:hover{
+    text-decoration:none;
+    color: #f8faf9;
+}
+
+.footer{
+    padding-top: 4rem;
+}
+
+.footer-text{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 900ms ease-in;
+}
+
+.fade-in.appear
+{
+    opacity: 1;
+}
